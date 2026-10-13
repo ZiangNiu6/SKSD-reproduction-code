@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+results/simulation-analysis-check/
+results/simulation-analysis-full/
+results/simulation-analysis-quick/
+results/real-data-analysis-full/
+results/real-data-analysis-quick/
+real-data-analysis/tcga_rppa/data/raw/
+real-data-analysis/tcga_rppa/data/derived/
+results/real-data-analysis/tcga-rppa/**/analysis_sample.csv
+results/real-data-analysis/tcga-rppa/**/analysis_coordinates.csv
+results/real-data-analysis/tcga-rppa/**/tuning_sample.csv

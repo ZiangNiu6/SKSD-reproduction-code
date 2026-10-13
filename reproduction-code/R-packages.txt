@@ -1,0 +1,5 @@
+# Versions used to verify all simulation and TCGA-LUAD R plot helpers.
+R 4.4.1
+renv 1.1.5
+ggplot2 4.0.2
+cowplot 1.1.3

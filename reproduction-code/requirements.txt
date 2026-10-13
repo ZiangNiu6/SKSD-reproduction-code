@@ -1,0 +1,5 @@
+# Numerical dependencies verified with Python 3.10.12.
+# All figures are rendered in R; see R-packages.txt.
+numpy==1.26.1
+scipy==1.15.3
+pandas==2.1.1

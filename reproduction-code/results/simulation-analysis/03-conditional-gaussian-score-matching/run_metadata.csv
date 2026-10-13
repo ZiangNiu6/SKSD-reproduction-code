@@ -1,0 +1,67 @@
+key,value
+MKL_NUM_THREADS,1
+OMP_NUM_THREADS,1
+OPENBLAS_NUM_THREADS,1
+VECLIB_MAXIMUM_THREADS,1
+alpha,0.050000000000000003
+bootstrap_draws,300
+bootstrap_stream,2
+brueck_correction_version,factor-corrected-midpoint-v1
+community_grid,"0,0.5,1,1.5,2,2.5"
+comparison,nominal rejection rates; no size adjustment
+completed_computational_rows,5100
+completed_display_rows,5700
+config_fingerprint,30e26dc027c8
+cpu_architecture,arm64
+cpu_processor,arm
+data_stream,1
+design_version,qim-structural-v2-community-closure-matching
+dimension,8
+elapsed_seconds,1697.55573
+entry_point_sha256,e09859954153eb572f740b1780fb4c9b90df8fc8b2f17c33ab47fe462508db37
+expected_computational_rows,5100
+expected_display_rows,5700
+figure_pdf_sha256,b8a51c83d6456b1604c20751dd25fcc90abadab13242d58dbb2d47264fb73188
+figure_png_sha256,679524d93e8d5b66074aa66c09386bd5d011802a2e1e845a91b4fb861719aaf2
+finished_utc,2026-09-28T10:02:49+00:00
+fixed_bandwidth,2.3500000000000001
+gibbs_burn,600
+logical_cpu_count,8
+matching_grid,"0,0.5,1,1.5,2,2.5"
+methods,SKSD-influence|Brueck-corrected
+model_seed,2026
+monte_carlo_reps,300
+nuisance_estimator,score matching
+numpy_version,1.26.1
+output_schema_version,1
+platform,macOS-15.7.3-arm64-arm-64bit
+plotting_backend,R/ggplot2
+profile,publication
+python_version,3.10.12
+replications_sha256,f0e6102836d8d45ce20a7ecd8976ce283b00185d9deb7a4523d6a0ff5376d46c
+resume_count,0
+rewire_grid,"0,0.25,0.5,0.75,1,1.25,1.5"
+run_complete,true
+run_fingerprint,30e26dc027c8
+sample_size,100
+schema_version,1
+scientific_output_schema_version,2
+scientific_source,_conditional_gaussian_core.py
+scientific_source_sha256,9f3a9d740aba985bc3811031576ba2d0731be2c6b2fe05a979102a44a288d007
+scipy_version,1.15.3
+score_matching_lower,-50
+score_matching_ridge,0
+score_matching_upper,0
+seed,20260731
+seed_scheme,"SeedSequence([base_seed, alternative_code, round(delta*10000), replication, stream])"
+started_utc,2026-09-28T09:26:23+00:00
+summary_sha256,fe7e3ad33ad7d7bf3408eb6ca290a0c773827e55a457d626baed1ef48ad47e3a
+timing_clock,perf_counter
+timing_excludes,observed-data simulation|checkpoint and output I/O
+timing_method_order,SKSD-influence|Brueck-corrected
+timing_observed_setup_scope,observed nuisance fit|fixed bandwidth
+timing_protocol,standalone-test-v1
+timing_shared_scope,score-matching geometry|observed nuisance fit|observed Stein Gram|Efron count generation
+timing_total_formula,shared scope + method statistic/bootstrap/p-value
+timing_unit,seconds per simulated dataset
+updated_utc,2026-09-28T16:26:38+00:00

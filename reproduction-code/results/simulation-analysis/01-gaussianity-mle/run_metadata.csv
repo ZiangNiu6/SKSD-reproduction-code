@@ -1,0 +1,51 @@
+key,value
+MKL_NUM_THREADS,1
+OMP_NUM_THREADS,1
+OPENBLAS_NUM_THREADS,1
+VECLIB_MAXIMUM_THREADS,1
+alpha,0.05
+alternatives,t;mixture;gen_chi
+bootstrap_draws,300
+bootstrap_mode,refit
+completed_datasets,7500
+completed_utc,2026-09-28T09:26:21.856514+00:00
+configuration_fingerprint,49dd427122e15bef
+cpu_architecture,arm64
+cpu_processor,arm
+figure_pdf_sha256,bda1cc332f03c91f0129b84363d1e440da1444c3ebff41ddf1b795bf92425d4c
+figure_png_sha256,5960cbfebefef0ab8ac35cabffdb134019a1a91fa3d974e1f39aac340f40ebcf
+grid_gen_chi,1;1.25;1.5;1.75;2;2.25;2.5;2.75
+grid_mixture,0;0.25;0.5;0.75;1;1.25;1.5;1.75
+grid_t,0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1
+legacy_replication_detail,not applicable; all methods simulated
+logical_cpu_count,8
+mode,simulate
+n,100
+numpy_version,1.26.1
+output_directory,results/reproduction-code/kef-gaussian-wild-20260927T134225Z/01-gaussianity-mle
+platform,macOS-15.7.3-arm64-arm-64bit
+plot_status,created figure.pdf and figure.png
+plot_updated_utc,2026-09-28T16:24:00.877498+00:00
+plotting_backend,R/ggplot2
+python_version,3.10.12
+replication_rows,45000
+replications,300
+replications_sha256,48cea7dfda348dff559e5e82317d855803384f94cb4987a0d0791a21d365eec7
+rng_scheme,"SeedSequence([seed,alternative_code,signal_index,replication,stream])"
+run_fingerprint,49dd427122e15bef
+schema_version,1
+scipy_version,1.15.3
+script_sha256,5bbf8ae443e495c6c96a9b4afe6a75c5844746cfa47faf9705c855a0a0e18582
+seed,20260622
+started_utc,2026-09-28T05:22:40.885651+00:00
+status,complete
+summary_rows,150
+summary_sha256,4286e9f1a5db27d73545562af0777d7163dd4c218ebc1c78f1c2b18ab596d130
+timing_clock,perf_counter
+timing_excludes,observed-data simulation; checkpoint and output I/O; plotting
+timing_method_order,"joint parametric KSD/MMD/KS bootstrap (KSD,MMD,KS statistic order)|SKSD-influence|SKSD-naive-wild|Brueck-corrected"
+timing_observed_setup_scope,observed MLE for all methods; observed KSD bandwidth for the three KSD methods
+timing_protocol,standalone-test-v1
+timing_shared_scope,required shared costs charged in full to each applicable method
+timing_total_formula,required observed setup + fitted-null sampling/refitting or empirical shared preprocessing + method statistic/bootstrap/p-value
+timing_unit,seconds per simulated dataset

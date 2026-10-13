@@ -1,0 +1,2 @@
+# Saved-table checksums require byte-identical checkout on every platform.
+*.csv -text whitespace=cr-at-eol

@@ -1,0 +1,60 @@
+key,value
+study,05-sphere-watson
+schema_version,sphere-watson-fresh-csv-v2
+workflow,simulate
+design_version,sphere-watson-bingham-v3-fixed-axis
+status,complete
+run_complete,true
+run_fingerprint,563677563eab3b2d
+config_sample_sizes,100
+config_kappas,"4.0,16.0"
+config_signals,"0.0,0.15,0.3,0.45,0.6,0.75"
+config_dispersion_paths,fixed_kappa
+config_crossing,false
+config_crossing_signals,"0.0,0.05,0.1,0.2,0.3,0.5"
+config_angle_degrees,60.0
+config_reps,1000
+config_bootstrap_draws,499
+config_alpha,0.05
+config_seed,20260913
+config_bandwidth,1.0
+config_methods,"SKSD-influence,SKSD-parametric,Brueck-corrected"
+config_weights,gaussian
+config_workers,4
+source_sha256_05_sphere_watson.py,59db0c1dd4e3a2b313ceb2a2a5958f54a4df0bf07edf603a18fe8e2724160a25
+source_sha256__sphere_core.py,78f22ec4fc1053b968ec5fb6d21723a251a920db8ea8530425857cc56218d916
+source_sha256__sphere_brueck.py,32088dd8e8d9463ada3fd7c82b1b7789241775d18474d7e459669ac03e7ddc4b
+started_at,2026-10-05T14:07:28.473113+00:00
+python,"3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]"
+numpy,1.26.1
+platform,macOS-15.7.3-arm64-arm-64bit
+thread_OPENBLAS_NUM_THREADS,1
+thread_MKL_NUM_THREADS,1
+thread_OMP_NUM_THREADS,1
+thread_VECLIB_MAXIMUM_THREADS,1
+statistic,nV for SKSD-influence/parametric; signed nU for Brueck-corrected
+brueck_correction_version,factor-corrected-midpoint-v1
+brueck_correction_note,"project midpoint correction, not an author-confirmed erratum"
+brueck_parameterization,A=kappa*(e3*e3.T-I/3); every refit keeps the axis fixed at e3
+brueck_weights,Efron counts; shared with influence when weights=efron
+comparison_note,Brueck uses U rather than V; not a calibration-only comparison
+kernel,exp(-||x-y||^2/(2 h^2)); h fixed for fitting and every bootstrap
+null,Watson on S2 with fixed axis e3 and concentration kappa in R
+estimator,"fixed-axis moment ratio, equivalent to scalar spherical score matching"
+fixed_axis,"0,0,1"
+interpretation,iid spherical orientations; not MRI signals or hemisphere-coded axial data
+parallel_workers,4
+timing_scope,standalone-test-v1
+timing_description,"shared observed fitting/statistic charged in full to each method plus calibration; DGP sampling, CSV and plotting excluded"
+checkpoint_scope,whole design cells; an interrupted unsaved cell is recomputed
+planned_cells,12
+completed_cells,12
+finished_at,2026-10-05T14:31:20.863925+00:00
+replications_sha256,9481d22ef633472a72f09b089d4c74f39a4078d2eaadc86017b74f6c50015a91
+summary_sha256,6f33638935ad495d330afca8bf44a1cb509f4c492025fc63014b0d9d30155770
+figure_pdf_sha256,d9c832bf65dd9340c16df214f4b31de5c2be22748f98a70b56efc05a2427d0c1
+figure_png_sha256,de6706c6713eff0920ba4d20650a53883ebed569774699904a38579029a323b1
+plot_source_sha256_plot_05_sphere_watson.R,433d174da1c9431c563cb6ce941aac696ca75008b96f774f12b66db7c378b21d
+plot_source_sha256__paper_plot.R,96526fc1b8c9926bc2d7a33aa4a337c318aba1c3b523ef3f03943f49a8259f32
+plot_source_sha256__paper_plot_style.csv,3f8157a856cb1216c9132750d240bcaea5c4ced3c35ed4ae4284e3ead7bc0a3a
+plotted_at,2026-10-05T14:31:23.873229+00:00

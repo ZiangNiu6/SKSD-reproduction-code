@@ -1,0 +1,36 @@
+key,value
+alpha,0.05
+alternative_basis,3
+bandwidth,1.5 * observed median pairwise distance
+bootstrap,paired centered Gaussian multipliers; consume Efron counts first
+bootstrap_draws,500
+core_sha256,7cb27a6277194fa9ea6e12eb5a48105827e9c8c6188815a5a7f8f0dffd491d46
+driver_sha256,94ce7ed4ce363931f35d8564e13eefc8ba2c51107a5700f1dcdc544e70ce469c
+estimator,ordinary Hyvarinen score matching without ridge
+figure_pdf_sha256,3829c7a0dea6f93ecc5c772181d2a81a530689bdb3861771d05e46785b320ee1
+figure_png_sha256,00429912d80240a6b6f03977a85814a5dab7aabd7974cd95916ea8ffddb0fbcd
+fitted_spans,"p1:0;p2:0,1;p3:0,1,2"
+p1_seed,20261206
+p2_seed,20261202
+p3_seed,20261204
+phi3_sd,0.04965046415790112
+plotter_sha256,0bf13d07bd688fb1f1f57f926f3e85b404790f32810650feb2b380285de4c9f8
+quick,false
+reference_core_sha256,5b1d8dfa6fb4585905443fa50c2c13f39fde05bc937d1d22f28b6b712a8887b7
+rejection_rule,nominal p<=alpha; no size correction
+replications,500
+replications_csv_rows,9000
+replications_sha256,566d2898a618cdef574bd2ef340190db617fd7b0e5c347b24bbab0897e187c60
+run_complete,true
+run_fingerprint,e8ba753a6cf4ebbc4c31ab54bd7995d9553ea9c6212c9d006f31d00318b3f9f0
+sample_size,100
+schema_version,kef-score-matching-nominal-v1
+sigma,3.0
+signal_scale,t=eta*SD_null(phi3)
+signals,0.0;0.1;0.2;0.3;0.4;0.5
+status,complete
+study,02b-kef-score-matching
+summary_csv_rows,36
+summary_sha256,f47fcbde229e1469c56399427f082855f4b0bcc1ecb4a74b6637573218479066
+theta0,10.0
+workflow,simulate

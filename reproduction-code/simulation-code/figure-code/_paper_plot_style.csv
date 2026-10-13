@@ -1,0 +1,14 @@
+key,value
+figure_width,12.5
+figure_height,4.6
+dpi,180
+strip_background,#EBEBEB
+strip_border,#000000
+strip_border_width,0.5
+strip_font_size,11
+axis_title_font_size,11
+axis_tick_font_size,10
+figure_title_font_size,13
+legend_font_size,10
+line_width,1.4
+marker_size,3.5
